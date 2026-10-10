@@ -1,0 +1,2 @@
+import { useI18n } from "../context/I18nContext";
+export default function Metrics(){const {t}=useI18n();return <section className="metrics"><div className="container metrics-grid"><div><strong>18+</strong><span>{t.metrics[0]}</span></div><div><strong>240+</strong><span>{t.metrics[1]}</span></div><div><strong>98%</strong><span>{t.metrics[2]}</span></div><div><strong>0</strong><span>{t.metrics[3]}</span></div></div></section>}
